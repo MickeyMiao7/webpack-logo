@@ -135,12 +135,13 @@ body {
 }
 
 .cube-inner .cube-face-top {
-  transform: rotateX(90deg) translateZ(90px);
+  transform: rotateX(90deg) translateZ(-90px);
   animation: top-border-transform 5s infinite step-start;
 }
 
 .cube-inner .cube-face-bottom {
-  transform: rotateX(90deg) translateZ(-90px);
+  transform: rotateX(90deg) translateZ(90px);
+  animation: inner-top-border-transform 5s infinite step-start;
   animation: bottom-border-transform 5s infinite step-start;
 }
 
@@ -155,9 +156,9 @@ body {
 }
 
 .cube-inner .cube-face-front {
-  transform: translateZ(90px);
+  transform: translateZ(-90px);
 }
 
 .cube-inner .cube-face-back {
-  transform: translateZ(-90px);
+  transform: translateZ(90px);
 }
