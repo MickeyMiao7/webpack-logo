@@ -1,3 +1,3 @@
 # Webpack Logo Using CSS
 
-![Effect]('./screenshot.gif')
+![Effect]('https://github.com/MickeyMiao7/webpack-logo/screenshot.gif')
